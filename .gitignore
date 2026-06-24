@@ -25,3 +25,23 @@ crash.*.log
 # Sensitive files
 *.pem
 *.key
+
+
+PUSH THIS
+main.tf
+variables.tf
+outputs.tf
+provider.tf
+versions.tf
+README.md
+.gitignore
+modules/
+
+
+NEVER PUSH THIS
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.pem
+*.key
