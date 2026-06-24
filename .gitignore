@@ -1,8 +1,27 @@
-# Terraform
+# Terraform directories
 .terraform/
+
+# Terraform state files
 *.tfstate
 *.tfstate.*
+
+# Terraform lock file
 .terraform.lock.hcl
 
-# Sensitive files
+# Variable files (often contain secrets)
 *.tfvars
+*.tfvars.json
+
+# ZIP archives
+*.zip
+
+# Logs
+*.log
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Sensitive files
+*.pem
+*.key
